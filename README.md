@@ -10,14 +10,14 @@ It provides developers with a platform containing both:
 - Kitalpha and Eclipse modeling frameworks and tools
 - Capella models and tools
 
-For more details see [the project page](http://www.eclipse.org/Capella) and [the main wiki page](https://wiki.eclipse.org/Capella/Studio).
+For more details see [the project page](http://www.eclipse.org/Capella) 和 [the main wiki page](https://wiki.eclipse.org/Capella/Studio)。
 
 # Building
 
 The build uses [Tycho](http://www.eclipse.org/tycho/). To build the product, issue
 ```
-mvn clean verify -P full -P product
+mvn clean verify -P full -P product 
 ```
 from the top-level directory.
 
-The resulting product can be found in `releng/plugins/org.polarsys.capella.studio.releng.product/target/products/`.
+The resulting product can be found in `releng/plugins/org.polarsys.capella.studio.releng.product/target/products/`。
