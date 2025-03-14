@@ -3,9 +3,7 @@
 
 name: Maven Package
 
-on:
-  release:
-    types: [push]
+on: [push]
 
 jobs:
   build:
@@ -24,8 +22,11 @@ jobs:
         distribution: 'temurin'
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
-
-    - name: Build with Maven
+        
+    - name: Build with Maven1
+      run: mvn clean verify -f releng/plugins/org.polarsys.capella.studio.releng.targets/pom.xml
+      
+    - name: Build with Maven2
       run: mvn clean verify -P full -P product
 
     - name: Publish to GitHub Packages Apache Maven
