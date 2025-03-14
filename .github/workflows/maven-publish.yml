@@ -40,7 +40,7 @@ jobs:
       id: create_release
       uses: actions/create-release@v1
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by GitHub
+        GITHUB_TOKEN: ${{ github.token }} # This token is provided by GitHub
       with:
         tag_name: ${{ github.ref }}
         release_name: Release ${{ github.ref }}
@@ -50,7 +50,7 @@ jobs:
     - name: Upload artifact to release
       uses: actions/upload-release-asset@v1
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ github.token  }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing its ID to get its outputs object, which include a `upload_url`.
         asset_path: ./releng/plugins/org.polarsys.capella.studio.releng.product/target/products/capella-studio-7.0.0.202503140812-linux.gtk.x86_64.zip # 替换为实际的构建输出路径
