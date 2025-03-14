@@ -23,12 +23,40 @@ jobs:
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
+    - name: Build with Maven1
+      run: mvn clean verify -f releng/plugins/org.polarsys.capella.studio.releng.targets/pom.xml
+
     - name: Build with Maven
       run: mvn clean verify -P full -P product
 
-    - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v3
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        name: maven-artifacts
+        path: /releng/plugins/org.polarsys.capella.studio.releng.product/target/products/*.zip # 根据实际生成的文件调整路径
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
       env:
-        GITHUB_TOKEN: ${{ github.token }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by GitHub
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+
+    - name: Upload artifact to release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing its ID to get its outputs object, which include a `upload_url`.
+        asset_path: ./releng/plugins/org.polarsys.capella.studio.releng.product/target/products/capella-studio-7.0.0.202503140812-linux.gtk.x86_64.zip # 替换为实际的构建输出路径
+        asset_name: capella-studio-7.0.0.202503140812-linux.gtk.x86_64.zip
+        asset_content_type: application/zip
+
+
 
           
