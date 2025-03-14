@@ -8,7 +8,7 @@ Capella Studio provides a full-integrated development environment which aims at 
 
 It provides developers with a platform containing both:
 - Kitalpha and Eclipse modeling frameworks and tools
-- Capella models and tools
+- Capella models and tools22
 
 For more details see [the project page](http://www.eclipse.org/Capella) 和 [the main wiki page](https://wiki.eclipse.org/Capella/Studio)。
 
