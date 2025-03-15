@@ -33,4 +33,4 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v2
       with:
-        files: /releng/plugins/org.polarsys.capella.studio.releng.product/target/products/*.zip    
+        files: /releng/plugins/org.polarsys.capella.studio.releng.product/target/products/capella-studio-7.0.0.202503140812-linux.gtk.x86_64.zip
