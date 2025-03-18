@@ -3,9 +3,7 @@
 
 name: Maven Package
 
-on:
-  release:
-    types: [push]
+on: [push]
 
 jobs:
   build:
@@ -26,8 +24,18 @@ jobs:
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
-    - name: Build with Maven1
+    - name: Restore Maven cache
+      uses: skjolber/maven-cache-github-action@v3.1.1
+      with:
+        step: restore
+
+    - name: Verify with Maven
       run: mvn clean verify -f releng/plugins/org.polarsys.capella.studio.releng.targets/pom.xml
+
+    - name: Save Maven cache
+      uses: skjolber/maven-cache-github-action@v3.1.1
+      with:
+        step: save
 
     - name: Build with Maven
       run: mvn clean verify -P full -P product
@@ -35,7 +43,26 @@ jobs:
     - name: echo log
       run: ls -l ./releng/plugins/org.polarsys.capella.studio.releng.product/target/products
 
-    - name: Release
-      uses: softprops/action-gh-release@v2
+    - name: Get current timestamp
+      id: get_timestamp
+      run: echo "::set-output name=timestamp::$(date +'%Y%m%d%H%M%S')"
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        files: ./releng/plugins/org.polarsys.capella.studio.releng.product/target/products/capella-studio-*.zip
+        tag_name: release-${{ steps.get_timestamp.outputs.timestamp }}
+        release_name: Release-${{ steps.get_timestamp.outputs.timestamp }}
+        draft: false
+        prerelease: false
+
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./releng/plugins/org.polarsys.capella.studio.releng.product/target/products/*.zip
+        tag: release-${{ steps.get_timestamp.outputs.timestamp }}
+        overwrite: true
+        file_glob: true
