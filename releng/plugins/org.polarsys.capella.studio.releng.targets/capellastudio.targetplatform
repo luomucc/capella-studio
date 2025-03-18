@@ -186,3 +186,7 @@ location Mylyn-3.26 "https://download.eclipse.org/mylyn/releases/3.26/" {
 location "https://download.eclipse.org/tools/orbit/downloads/2023-03/" {
 	ch.qos.logback.slf4j
 }
+
+location "https://download.eclipse.org/cbi/updates/tpd/" {
+	org.eclipse.cbi.targetplatform.feature
+}

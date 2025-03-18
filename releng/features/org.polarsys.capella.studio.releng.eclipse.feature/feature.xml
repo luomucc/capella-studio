@@ -31,7 +31,11 @@
    <includes
          id="org.eclipse.amalgam.explorer.activity"
          version="0.0.0"/>
-
+         
+  <includes
+         id="org.eclipse.cbi.targetplatform.feature"
+         version="0.0.0"/>
+         
    <includes
          id="org.eclipse.amalgam.explorer.activity.source"
          version="0.0.0"/>
