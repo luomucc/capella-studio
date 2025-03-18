@@ -628,6 +628,202 @@
          id="org.eclipse.m2e.feature"
          version="0.0.0"/>
 
+   <includes
+         id="org.eclipse.uml2"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.uml2.codegen.ecore.ui"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.uml2.common"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.uml2.common.edit"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.uml2.doc"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.uml2.examples"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.uml2.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.uml2.uml"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.uml2.uml.edit"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.doc"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.ecore.converter"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.ecore.converter.source"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.edit"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.edit.source"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.editor"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.editor.source"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.mapping"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.mapping.editor"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.mapping.editor.source"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.mapping.source"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.source"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtend.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.docs"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.examples"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.redist"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.runtime"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.ui"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.xbase"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.xbase.lib"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.xtext.ui"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.xtext.ui.graph"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.egf.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.gef.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.nebula.widgets.nattable.core.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.nebula.widgets.richtext.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.nebula.widgets.tablecombo.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ocl"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ocl.all"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.pde"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.platform"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.uml2"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.uml2.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xsd.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.xtext.sdk"
+         version="0.0.0"/>
+
    <plugin
          id="org.eclipse.ocl.ecore"
          version="0.0.0"/>
