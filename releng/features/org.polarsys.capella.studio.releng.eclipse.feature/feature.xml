@@ -824,6 +824,10 @@
          id="org.eclipse.xtext.sdk"
          version="0.0.0"/>
 
+   <includes
+         id="org.eclipse.cbi.targetplatform.feature"
+         version="0.0.0"/>
+
    <plugin
          id="org.eclipse.ocl.ecore"
          version="0.0.0"/>
