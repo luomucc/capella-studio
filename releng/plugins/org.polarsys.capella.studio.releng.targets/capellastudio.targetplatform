@@ -187,6 +187,6 @@ location "https://download.eclipse.org/tools/orbit/downloads/2023-03/" {
 	ch.qos.logback.slf4j
 }
 
-location "https://download.eclipse.org/cbi/updates/tpd/" {
+location "https://download.eclipse.org/cbi/updates/tpd/release" {
 	org.eclipse.cbi.targetplatform.feature
 }
