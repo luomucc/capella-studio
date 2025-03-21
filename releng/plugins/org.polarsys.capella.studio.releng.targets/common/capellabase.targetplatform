@@ -248,7 +248,7 @@ location amalgam "https://download.eclipse.org/modeling/amalgam/updates/stable/1
 	org.eclipse.amalgam.explorer.contextual.sirius.source lazy
 }
 
-location EcoreTools "https://archive.eclipse.org/capella/studio/updates/releases/1.2.2" {
+location EcoreTools "https://download.eclipse.org/ecoretools/updates/nightly/latest/neon" {
 	org.eclipse.emf.ecoretools.sdk.feature.group lazy
 	org.eclipse.emf.ecoretools.design lazy
 	org.eclipse.emf.ecoretools.explorer.contextual.feature.group lazy
