@@ -240,7 +240,7 @@
       <unit id="org.eclipse.emf.ecoretools.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.ecoretools.design" version="0.0.0"/>
       <unit id="org.eclipse.emf.ecoretools.explorer.contextual.feature.group" version="0.0.0"/>
-      <repository id="EcoreTools" location="http://download.eclipse.org/ecoretools/updates/nightly/3.2.1/neon"/>
+      <repository id="EcoreTools" location="https://archive.eclipse.org/capella/studio/updates/releases/1.2.2"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.sirius.query.legacy.feature.feature.group" version="0.0.0"/>
