@@ -281,3 +281,21 @@ location EGF "http://download.eclipse.org/egf/updates/1.5.1/neon" {
 	org.eclipse.egf.sdk.source.feature.group lazy
 }
 
+location "https://download.eclipse.org/releases/neon/201703231000/" {
+		org.eclipse.jubula.feature.api.core.feature.group  lazy
+	    org.eclipse.jubula.feature.api.core.source.feature.group  lazy
+	    org.eclipse.jubula.feature.feature.group lazy
+	    org.eclipse.jubula.feature.launch.java.feature.group lazy
+	    org.eclipse.jubula.feature.launch.rcp.feature.group lazy
+	    org.eclipse.m2e.wtp.feature.feature.group lazy
+	    org.eclipse.m2e.wtp.jaxrs.feature.feature.group lazy
+	    org.eclipse.m2e.wtp.jpa.feature.feature.group lazy
+	    org.eclipse.m2e.wtp.jsf.feature.feature.group lazy
+	    org.eclipse.rcptt.platform.feature.group lazy
+	    org.sonatype.m2e.mavenarchiver.feature.feature.group lazy
+	    org.eclipse.epp.mpc.feature.group lazy
+	    org.eclipse.m2e.feature.feature.group lazy
+	    org.eclipse.m2e.logback.feature.feature.group lazy
+	    org.eclipse.m2e.sdk.feature.feature.group lazy
+}
+

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
-<!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="capellastudio" sequenceNumber="1563196086">
+<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl --><target name="capellastudio" sequenceNumber="1742803946">
   <locations>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.egit.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.egit.source.feature.group" version="0.0.0"/>
@@ -161,7 +160,7 @@
       <unit id="org.antlr.runtime.source" version="3.2.0.v201101311130"/>
       <repository id="eclipse-releases-neon" location="http://download.eclipse.org/releases/neon"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.acceleo.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.acceleo.source.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.acceleo.doc.feature.group" version="0.0.0"/>
@@ -170,7 +169,7 @@
       <unit id="org.eclipse.acceleo.ui.capabilities.feature.group" version="0.0.0"/>
       <repository id="acceleo-3.7.1" location="http://download.eclipse.org/acceleo/updates/milestones/3.7/S201705121344"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.sirius.doc.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.sirius.doc.feature.source.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.sirius.runtime.ide.eef.feature.group" version="0.0.0"/>
@@ -196,7 +195,7 @@
       <unit id="org.eclipse.sirius.runtime.ide.ui.acceleo.source.feature.jar" version="0.0.0"/>
       <repository id="sirius" location="http://download.eclipse.org/sirius/updates/releases/5.1.4/neon"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.emf.eef.sdk-feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.eef.codegen.ecore-feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.eef.edt-feature.feature.group" version="0.0.0"/>
@@ -204,7 +203,7 @@
       <unit id="org.eclipse.emf.eef.runtime-feature.feature.group" version="0.0.0"/>
       <repository id="EEF" location="http://download.eclipse.org/modeling/emft/eef/updates/milestones/1.5/S201501090502"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.emf.diffmerge.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.diffmerge.feature.source.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.diffmerge.sirius.feature.feature.group" version="0.0.0"/>
@@ -215,14 +214,14 @@
       <unit id="org.eclipse.emf.diffmerge.egit.feature.source.feature.group" version="0.0.0"/>
       <repository id="diffmerge-core-master" location="http://download.eclipse.org/diffmerge/releases/0.9.0/emf-diffmerge-site"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.emf.diffmerge.patterns.sdk.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.diffmerge.patterns.sdk.feature.source.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.diffmerge.patterns.sirius.sdk.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.diffmerge.patterns.sirius.sdk.feature.source.feature.group" version="0.0.0"/>
       <repository id="diffmerge-patterns-master" location="http://download.eclipse.org/diffmerge/releases/0.9.0/edm-patterns-site"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.amalgam.explorer.activity.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.amalgam.explorer.activity.source.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.amalgam.explorer.contextual.feature.group" version="0.0.0"/>
@@ -236,50 +235,68 @@
       <unit id="org.eclipse.amalgam.explorer.contextual.sirius.source" version="0.0.0"/>
       <repository id="amalgam" location="https://download.eclipse.org/modeling/amalgam/updates/stable/1.9.2-S20181203/capella/"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.emf.ecoretools.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.emf.ecoretools.design" version="0.0.0"/>
       <unit id="org.eclipse.emf.ecoretools.explorer.contextual.feature.group" version="0.0.0"/>
       <repository id="EcoreTools" location="https://download.eclipse.org/ecoretools/updates/nightly/3.3.x/oxygen"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.sirius.query.legacy.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.sirius.query.legacy.feature.source.feature.group" version="0.0.0"/>
       <repository id="sirius-query-legacy-1.1.0" location="http://download.eclipse.org/sirius/updates/legacy/1.1.0"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.nebula.feature.feature.group" version="1.2.0.201703081533"/>
       <repository id="nebula-1.2.0" location="http://download.eclipse.org/nebula/releases/1.2.0"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.apache.log4j" version="1.2.15.v201012070815"/>
       <unit id="org.apache.commons.lang" version="2.4.0.v201005080502"/>
       <unit id="org.apache.commons.net" version="3.2.0.v201305141515"/>
       <unit id="org.jsoup" version="1.7.2.v201304221138"/>
       <repository id="orbit-R20130827064939" location="http://download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="com.google.guava" version="15.0.0.v201403281430"/>
       <repository id="orbit-R20140525021250" location="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.egf.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.egf.source.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.egf.sdk.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.egf.sdk.source.feature.group" version="0.0.0"/>
       <repository id="EGF" location="http://download.eclipse.org/egf/updates/1.5.1/neon"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+      <repository location="https://download.eclipse.org/releases/neon/201703231000/"/>
+	    <unit id="org.eclipse.jubula.feature.api.core.feature.group" version="4.0.0.201611231023"/>
+	    <unit id="org.eclipse.jubula.feature.api.core.source.feature.group" version="4.0.0.201611231023"/>
+	    <unit id="org.eclipse.jubula.feature.feature.group" version="4.0.0.201611231023"/>
+	    <unit id="org.eclipse.jubula.feature.launch.java.feature.group" version="4.0.0.201611231023"/>
+	    <unit id="org.eclipse.jubula.feature.launch.rcp.feature.group" version="4.0.0.201611231023"/>
+	    <unit id="org.eclipse.m2e.wtp.feature.feature.group" version="1.3.1.20160831-1005"/>
+	    <unit id="org.eclipse.m2e.wtp.jaxrs.feature.feature.group" version="1.3.1.20160831-1005"/>
+	    <unit id="org.eclipse.m2e.wtp.jpa.feature.feature.group" version="1.3.1.20160831-1005"/>
+	    <unit id="org.eclipse.m2e.wtp.jsf.feature.feature.group" version="1.3.1.20160831-1005"/>
+	    <unit id="org.eclipse.rcptt.platform.feature.group" version="2.1.0.201605312329"/>
+	    <unit id="org.sonatype.m2e.mavenarchiver.feature.feature.group" version="0.17.2.201606141937-signed-20160830073346"/>
+	    <unit id="org.eclipse.epp.mpc.feature.group" version="1.5.4.v20170222-1941"/>
+	    <unit id="org.eclipse.m2e.feature.feature.group" version="1.7.0.20160603-1933"/>
+	    <unit id="org.eclipse.m2e.logback.feature.feature.group" version="1.7.0.20160603-1933"/>
+	    <unit id="org.eclipse.m2e.sdk.feature.feature.group" version="1.7.0.20160603-1933"/>
+    </location>
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.polarsys.kitalpha.runtime.feature.feature.group" version="0.0.0"/>
       <unit id="org.polarsys.kitalpha.runtime.feature.source.feature.group" version="0.0.0"/>
       <repository id="kitalpha-runtime" location="https://download.polarsys.org/kitalpha/updates/releases/runtime/1.2.2/"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.polarsys.kitalpha.common.feature.feature.group" version="0.0.0"/>
       <unit id="org.polarsys.kitalpha.common.feature.source.feature.group" version="0.0.0"/>
       <repository id="kitalpha-runtimeCore" location="https://download.polarsys.org/kitalpha/updates/releases/runtimecore/1.2.2/"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.polarsys.kitalpha.ad.viewpoint.dsl.generation.feature.feature.group" version="0.0.0"/>
       <unit id="org.polarsys.kitalpha.ad.viewpoint.dsl.generation.feature.source.feature.group" version="0.0.0"/>
       <unit id="org.polarsys.kitalpha.ad.viewpoint.dsl.as.feature.feature.group" version="0.0.0"/>
@@ -398,12 +415,12 @@
       <unit id="org.polarsys.kitalpha.richtext.widget.ext.feature.feature.group" version="0.0.0"/>
       <repository id="kitalpha-sdk" location="https://download.polarsys.org/kitalpha/updates/releases/sdk/1.2.2/"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.polarsys.capella.core.egf.feature.feature.group" version="0.0.0"/>
       <unit id="org.polarsys.capella.core.egf.feature.source.feature.group" version="0.0.0"/>
       <repository id="capella-egf-patterns" location="http://download.polarsys.org/capella/core/updates/releases/1.2.2-R20181206-153602/org.polarsys.capella.egf.site/"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
       <unit id="org.polarsys.capella.rcp.feature.feature.group" version="0.0.0"/>
       <unit id="org.polarsys.capella.rcp.feature.source.feature.group" version="0.0.0"/>
       <repository id="capella" location="http://download.polarsys.org/capella/core/updates/releases/1.2.2-R20181206-153602/org.polarsys.capella.rcp.site/"/>
