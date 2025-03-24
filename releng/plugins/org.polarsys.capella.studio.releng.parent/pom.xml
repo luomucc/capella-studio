@@ -82,7 +82,7 @@
 				<version>${tycho-version}</version>
 				<extensions>true</extensions>
 			</plugin>
-			<!--<plugin>
+			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-surefire-plugin</artifactId>
 				<version>${tycho-version}</version>
@@ -96,8 +96,9 @@
 					<testRuntime>p2Installed</testRuntime>
 					<work>${session.executionRootDirectory}/releng/plugins/org.polarsys.capella.studio.releng.product/target/products/org.polarsys.capella.studio.releng.product/linux/gtk/x86_64</work>
 					<profileName>SDKProfile</profileName>
+					<skipTests>true</skipTests>
 				</configuration>
-			</plugin>-->
+			</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
