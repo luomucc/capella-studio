@@ -41,7 +41,7 @@
 		<targetPlatform.name>capellastudio.targetplatform</targetPlatform.name>
 		<converterApplication.name>fr.obeo.releng.targetplatform.targetPlatform.converter</converterApplication.name>
 	</properties>
-	<!-- Desable the target generation while build
+	<!-- Desable the target generation while build-->
 	<build>
 		<plugins>
 			<plugin>
@@ -102,5 +102,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	-->
+	
 </project>
