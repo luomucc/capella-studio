@@ -62,6 +62,23 @@
 		<module>../org.polarsys.capella.studio.releng.aggregator</module>
 		<module>../org.polarsys.capella.studio.releng.aggregator.tests</module>
 	</modules>
+	
+	
+	<dependencies>
+	 <dependency>
+        <groupId>org.eclipse.m2e</groupId>
+        <artifactId>org.eclipse.m2e.core</artifactId>
+        <version>1.7.0</version> <!-- 替换为你需要的版本 -->
+        <type>eclipse-plugin</type>
+    </dependency>
+    <dependency>
+        <groupId>org.eclipse.m2e</groupId>
+        <artifactId>org.eclipse.m2e.editor</artifactId>
+        <version>1.7.0</version>
+        <type>eclipse-plugin</type>
+    </dependency>
+	</dependencies>
+	
 	<profiles>
 		<profile>
 			<id>full</id>
