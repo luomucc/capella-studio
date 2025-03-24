@@ -29,9 +29,11 @@ jobs:
       with:
         step: restore
 
+    - name: Ve2rify with Maven00
+      run: mvn clean verify -f releng/plugins/org.polarsys.capella.studio.releng.targets/pom.xml
+
     - name: Verify with Maven
       run: mvn clean verify -f releng/plugins/org.polarsys.capella.studio.releng.parent/pom.xml
-
 
     - name: Save Maven cache
       uses: skjolber/maven-cache-github-action@v3.1.1
