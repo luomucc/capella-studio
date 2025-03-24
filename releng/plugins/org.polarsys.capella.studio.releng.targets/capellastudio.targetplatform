@@ -12,7 +12,7 @@ target "capellastudio" with source, requirements
 
 include "common/capellabase.targetplatform"
 
-location kitalpha-runtime "http://download.polarsys.org/kitalpha/updates/release/runtime/1.2.2/" {
+location kitalpha-runtime "https://download.polarsys.org/kitalpha/updates/releases/runtime/1.2.2/" {
 	org.polarsys.kitalpha.runtime.feature.feature.group lazy
 	org.polarsys.kitalpha.runtime.feature.source.feature.group lazy
 }
