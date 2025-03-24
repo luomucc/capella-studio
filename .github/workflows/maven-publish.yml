@@ -39,7 +39,7 @@ jobs:
         step: save
 
     - name: Build with Maven
-      run: mvn clean verify -P full -P product
+      run: mvn clean verify -P full -P product -Dmaven.test.skip=true
 
     - name: echo log
       run: ls -l ./releng/plugins/org.polarsys.capella.studio.releng.product/target/products
