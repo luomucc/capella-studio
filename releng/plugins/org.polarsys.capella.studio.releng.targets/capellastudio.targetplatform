@@ -21,6 +21,22 @@ location sirius-query-legacy-1.1.0 "https://download.eclipse.org/sirius/updates/
 location Eclipse-2023-03 "https://download.eclipse.org/releases/2023-03/" {
 	org.eclipse.emf.query.sdk.feature.group lazy
 	org.eclipse.equinox.core.sdk.feature.group lazy	
+	org.eclipse.epp.mpc.feature.group lazy
+	org.eclipse.m2e.logback.feature.feature.group lazy
+	org.eclipse.m2e.pde.feature.feature.group lazy
+	org.eclipse.m2e.sdk.feature.feature.group lazy
+	org.eclipse.swt.tools.feature.feature.group lazy
+	org.eclipse.wb.core.feature.feature.group lazy
+	org.eclipse.wb.core.java.feature.feature.group lazy
+	org.eclipse.wb.core.ui.feature.feature.group lazy
+	org.eclipse.wb.doc.user.feature.feature.group lazy
+	org.eclipse.wb.layout.group.feature.feature.group lazy
+	org.eclipse.wb.rcp.SWT_AWT_support.feature.group lazy
+	org.eclipse.wb.rcp.doc.user.feature.feature.group lazy
+	org.eclipse.wb.rcp.feature.feature.group lazy
+	org.eclipse.wb.swing.doc.user.feature.feature.group lazy
+	org.eclipse.wb.swing.feature.feature.group lazy
+	org.eclipse.wb.swt.feature.feature.group lazy
 }
 
 location kitalpha-sdk "https://download.eclipse.org/kitalpha/updates/nightly/sdk/master/" {
